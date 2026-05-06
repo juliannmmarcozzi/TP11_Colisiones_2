@@ -18,7 +18,7 @@ public class ScoreUIManager : MonoBehaviour
     {
         score ++;
         txtScore.text = score.ToString();
-        if(score >= 3)
+        if(score >= 4)
     {
         txtScore.text = "GANASTE";
     }
